@@ -1,0 +1,903 @@
+{
+  "version": "1.0.0",
+  "locale": "ca-ES",
+  "grade": 3,
+  "problems": [
+    {
+      "id": "L1-01",
+      "level": 1,
+      "title": "Els adhesius",
+      "statement": "La Jana té 26 adhesius i la seva amiga li regala 17 adhesius més.",
+      "question": "Quants adhesius té ara?",
+      "answer": {
+        "value": 43,
+        "unit": "adhesius"
+      },
+      "steps": [
+        {
+          "expression": "26 + 17",
+          "result": 43
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "descomposició"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Comença amb els 26 adhesius que ja té.",
+        "Per sumar 17, pots fer un salt de 10 i un de 7.",
+        "26 → 36 → 43."
+      ],
+      "workedSolution": "26 + 10 = 36; 36 + 7 = 43. En total té 43 adhesius."
+    },
+    {
+      "id": "L1-02",
+      "level": 1,
+      "title": "Les bales",
+      "statement": "En Pol té 65 bales i en perd 23 jugant al pati.",
+      "question": "Quantes bales li queden?",
+      "answer": {
+        "value": 42,
+        "unit": "bales"
+      },
+      "steps": [
+        {
+          "expression": "65 - 23",
+          "result": 42
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "descomposició"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Si perd bales, el nombre final serà més petit.",
+        "Resta primer 20 i després 3.",
+        "65 → 45 → 42."
+      ],
+      "workedSolution": "65 − 20 = 45; 45 − 3 = 42. Li queden 42 bales."
+    },
+    {
+      "id": "L1-03",
+      "level": 1,
+      "title": "Els llibres nous",
+      "statement": "A l’aula hi ha 34 llibres i l’escola n’hi porta 28 més.",
+      "question": "Quants llibres hi ha ara a l’aula?",
+      "answer": {
+        "value": 62,
+        "unit": "llibres"
+      },
+      "steps": [
+        {
+          "expression": "34 + 28",
+          "result": 62
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "pas per la desena"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Cal ajuntar els llibres que ja hi havia amb els nous.",
+        "Descompon 28 en 20 i 8.",
+        "34 → 54 → 60 → 62."
+      ],
+      "workedSolution": "34 + 20 = 54; després +6 fins a 60 i +2 fins a 62."
+    },
+    {
+      "id": "L1-04",
+      "level": 1,
+      "title": "Les pomes",
+      "statement": "Al menjador hi ha 80 pomes. A l’hora de dinar se’n mengen 35.",
+      "question": "Quantes pomes queden?",
+      "answer": {
+        "value": 45,
+        "unit": "pomes"
+      },
+      "steps": [
+        {
+          "expression": "80 - 35",
+          "result": 45
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "descomposició"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Com que se les mengen, cal restar.",
+        "Resta 30 i després 5.",
+        "80 → 50 → 45."
+      ],
+      "workedSolution": "80 − 30 = 50; 50 − 5 = 45. Queden 45 pomes."
+    },
+    {
+      "id": "L1-05",
+      "level": 1,
+      "title": "Les entrades del museu",
+      "statement": "Un grup compra 47 entrades per visitar un museu. Després en compra 16 més.",
+      "question": "Quantes entrades han comprat?",
+      "answer": {
+        "value": 63,
+        "unit": "entrades"
+      },
+      "steps": [
+        {
+          "expression": "47 + 16",
+          "result": 63
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "pas per la desena"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Has de sumar les dues compres.",
+        "Pots separar el 16 en 10 i 6.",
+        "47 → 57 → 60 → 63."
+      ],
+      "workedSolution": "47 + 10 = 57; 57 + 3 = 60; 60 + 3 = 63."
+    },
+    {
+      "id": "L1-06",
+      "level": 1,
+      "title": "L’autobús",
+      "statement": "En un autobús viatgen 72 persones. En una parada en baixen 29.",
+      "question": "Quantes persones continuen a l’autobús?",
+      "answer": {
+        "value": 43,
+        "unit": "persones"
+      },
+      "steps": [
+        {
+          "expression": "72 - 29",
+          "result": 43
+        }
+      ],
+      "strategies": [
+        "compensació",
+        "línia numèrica"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "El nombre de persones disminueix.",
+        "Pots restar 30 i després afegir-ne 1.",
+        "72 − 30 = 42; 42 + 1 = 43."
+      ],
+      "workedSolution": "Restar 29 és el mateix que restar 30 i afegir 1: 43 persones."
+    },
+    {
+      "id": "L2-01",
+      "level": 2,
+      "title": "La parada de fruita",
+      "statement": "En una parada del mercat tenen 84 taronges. Hi ha el doble de taronges que de pomes.",
+      "question": "Quantes pomes hi ha?",
+      "answer": {
+        "value": 42,
+        "unit": "pomes"
+      },
+      "steps": [
+        {
+          "expression": "84 / 2",
+          "result": 42
+        }
+      ],
+      "strategies": [
+        "meitats",
+        "model de barres"
+      ],
+      "visualModel": "barModel",
+      "hints": [
+        "Les taronges representen dues parts iguals.",
+        "Busca la meitat de 84.",
+        "Meitat de 80: 40; meitat de 4: 2."
+      ],
+      "workedSolution": "84 = 80 + 4; les meitats són 40 i 2; 40 + 2 = 42 pomes."
+    },
+    {
+      "id": "L2-02",
+      "level": 2,
+      "title": "La capsa de cromos",
+      "statement": "La Sara té 72 cromos. Té el doble de cromos que el seu cosí.",
+      "question": "Quants cromos té el cosí?",
+      "answer": {
+        "value": 36,
+        "unit": "cromos"
+      },
+      "steps": [
+        {
+          "expression": "72 / 2",
+          "result": 36
+        }
+      ],
+      "strategies": [
+        "meitats",
+        "model de barres"
+      ],
+      "visualModel": "barModel",
+      "hints": [
+        "Si la Sara en té el doble, el cosí en té la meitat.",
+        "Descompon 72 en 60 i 12.",
+        "30 + 6 = 36."
+      ],
+      "workedSolution": "Meitat de 60 = 30 i meitat de 12 = 6. El cosí té 36 cromos."
+    },
+    {
+      "id": "L2-03",
+      "level": 2,
+      "title": "L’hort de l’escola",
+      "statement": "A l’hort ja han plantat 45 flors. Volen arribar a tenir-ne 70.",
+      "question": "Quantes flors els falten per plantar?",
+      "answer": {
+        "value": 25,
+        "unit": "flors"
+      },
+      "steps": [
+        {
+          "expression": "70 - 45",
+          "result": 25
+        }
+      ],
+      "strategies": [
+        "complement",
+        "línia numèrica"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Cal trobar la distància entre 45 i 70.",
+        "Fes salts de 45 fins a 70.",
+        "45 → 50 (+5) → 70 (+20)."
+      ],
+      "workedSolution": "5 + 20 = 25. Els falten 25 flors."
+    },
+    {
+      "id": "L2-04",
+      "level": 2,
+      "title": "Les galetes",
+      "statement": "S’han fet 96 galetes i es reparteixen per igual en dues capses.",
+      "question": "Quantes galetes hi ha a cada capsa?",
+      "answer": {
+        "value": 48,
+        "unit": "galetes"
+      },
+      "steps": [
+        {
+          "expression": "96 / 2",
+          "result": 48
+        }
+      ],
+      "strategies": [
+        "meitats",
+        "model de barres"
+      ],
+      "visualModel": "barModel",
+      "hints": [
+        "Les dues capses tenen la mateixa quantitat.",
+        "Divideix 96 en 80 i 16 per trobar-ne la meitat.",
+        "40 + 8 = 48."
+      ],
+      "workedSolution": "Meitat de 80 = 40 i meitat de 16 = 8. Cada capsa té 48 galetes."
+    },
+    {
+      "id": "L2-05",
+      "level": 2,
+      "title": "Les entrades de la festa",
+      "statement": "A la festa de l’escola es poden vendre 90 entrades. Ja se n’han venut 38.",
+      "question": "Quantes entrades queden per vendre?",
+      "answer": {
+        "value": 52,
+        "unit": "entrades"
+      },
+      "steps": [
+        {
+          "expression": "90 - 38",
+          "result": 52
+        }
+      ],
+      "strategies": [
+        "complement",
+        "línia numèrica"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Busca quantes entrades falten fins a 90.",
+        "Comença a 38 i arriba primer a 40.",
+        "38 → 40 (+2) → 90 (+50)."
+      ],
+      "workedSolution": "2 + 50 = 52. Queden 52 entrades."
+    },
+    {
+      "id": "L2-06",
+      "level": 2,
+      "title": "Els cromos d’en Nil",
+      "statement": "En Nil té 29 cromos. La seva germana en té el doble.",
+      "question": "Quants cromos té la germana?",
+      "answer": {
+        "value": 58,
+        "unit": "cromos"
+      },
+      "steps": [
+        {
+          "expression": "29 * 2",
+          "result": 58
+        }
+      ],
+      "strategies": [
+        "dobles",
+        "compensació"
+      ],
+      "visualModel": "barModel",
+      "hints": [
+        "El doble vol dir tenir dues vegades la mateixa quantitat.",
+        "Pots calcular el doble de 30 i ajustar.",
+        "30 × 2 = 60; com que 29 és 1 menys, resta 2."
+      ],
+      "workedSolution": "El doble de 29 és 58, perquè 29 + 29 = 58."
+    },
+    {
+      "id": "L3-01",
+      "level": 3,
+      "title": "Els dies de pluja",
+      "statement": "Al febrer va ploure 18 dies i al març 21 dies. Durant els tres primers mesos de l’any va ploure un total de 52 dies.",
+      "question": "Quants dies va ploure al gener?",
+      "answer": {
+        "value": 13,
+        "unit": "dies"
+      },
+      "steps": [
+        {
+          "expression": "18 + 21",
+          "result": 39
+        },
+        {
+          "expression": "52 - 39",
+          "result": 13
+        }
+      ],
+      "strategies": [
+        "complement",
+        "línia numèrica"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Primer ajunta els dies de febrer i març.",
+        "18 + 21 = 39. Ara compara 39 amb 52.",
+        "39 → 40 (+1) → 50 (+10) → 52 (+2)."
+      ],
+      "workedSolution": "Febrer i març sumen 39 dies; de 39 a 52 n’hi ha 13. Al gener va ploure 13 dies."
+    },
+    {
+      "id": "L3-02",
+      "level": 3,
+      "title": "Les pilotes de l’escola",
+      "statement": "L’escola té 36 pilotes vermelles i 28 de blaves. Durant el curs se’n fan malbé 19.",
+      "question": "Quantes pilotes queden en bon estat?",
+      "answer": {
+        "value": 45,
+        "unit": "pilotes"
+      },
+      "steps": [
+        {
+          "expression": "36 + 28",
+          "result": 64
+        },
+        {
+          "expression": "64 - 19",
+          "result": 45
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "compensació"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Primer calcula totes les pilotes.",
+        "36 + 28 = 64. Després resta les que es fan malbé.",
+        "64 − 20 = 44; afegeix 1."
+      ],
+      "workedSolution": "Hi havia 64 pilotes. Restem 19 i en queden 45."
+    },
+    {
+      "id": "L3-03",
+      "level": 3,
+      "title": "La biblioteca",
+      "statement": "A la biblioteca hi havia 95 llibres. Dilluns en presten 38 i dimarts en retornen 14.",
+      "question": "Quants llibres hi ha ara a la biblioteca?",
+      "answer": {
+        "value": 71,
+        "unit": "llibres"
+      },
+      "steps": [
+        {
+          "expression": "95 - 38",
+          "result": 57
+        },
+        {
+          "expression": "57 + 14",
+          "result": 71
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "descomposició"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Primer surten llibres de la biblioteca.",
+        "Calcula 95 − 38. Després afegeix els retornats.",
+        "95 − 38 = 57; 57 + 14 = 71."
+      ],
+      "workedSolution": "Després del préstec hi ha 57 llibres; amb els 14 retornats, 71."
+    },
+    {
+      "id": "L3-04",
+      "level": 3,
+      "title": "El cinema",
+      "statement": "Un cinema té 120 entrades per a una pel·lícula. Al matí en venen 45 i a la tarda 38.",
+      "question": "Quantes entrades queden per vendre?",
+      "answer": {
+        "value": 37,
+        "unit": "entrades"
+      },
+      "steps": [
+        {
+          "expression": "45 + 38",
+          "result": 83
+        },
+        {
+          "expression": "120 - 83",
+          "result": 37
+        }
+      ],
+      "strategies": [
+        "complement",
+        "línia numèrica"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Primer busca quantes entrades s’han venut.",
+        "45 + 38 = 83. Ara arriba fins a 120.",
+        "83 → 90 (+7) → 100 (+10) → 120 (+20)."
+      ],
+      "workedSolution": "S’han venut 83 entrades i en queden 37."
+    },
+    {
+      "id": "L3-05",
+      "level": 3,
+      "title": "L’excursió en bicicleta",
+      "statement": "Dissabte, la Laia fa 24 quilòmetres en bicicleta. Diumenge en fa 13 més que dissabte.",
+      "question": "Quants quilòmetres fa entre els dos dies?",
+      "answer": {
+        "value": 61,
+        "unit": "quilòmetres"
+      },
+      "steps": [
+        {
+          "expression": "24 + 13",
+          "result": 37
+        },
+        {
+          "expression": "24 + 37",
+          "result": 61
+        }
+      ],
+      "strategies": [
+        "línia numèrica",
+        "descomposició"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Diumenge no fa 13 km: en fa 13 més que dissabte.",
+        "Calcula primer els quilòmetres de diumenge.",
+        "24 + 13 = 37; 24 + 37 = 61."
+      ],
+      "workedSolution": "Diumenge fa 37 km. En total, 24 + 37 = 61 km."
+    },
+    {
+      "id": "L3-06",
+      "level": 3,
+      "title": "Les cadires del concert",
+      "statement": "Per a un concert hi ha 130 cadires. Hi entren 47 persones i, una estona després, 36 persones més.",
+      "question": "Quantes cadires queden lliures?",
+      "answer": {
+        "value": 47,
+        "unit": "cadires"
+      },
+      "steps": [
+        {
+          "expression": "47 + 36",
+          "result": 83
+        },
+        {
+          "expression": "130 - 83",
+          "result": 47
+        }
+      ],
+      "strategies": [
+        "descomposició",
+        "complement"
+      ],
+      "visualModel": "numberLine",
+      "hints": [
+        "Suma les persones dels dos grups.",
+        "47 + 36 = 83; les altres cadires són les lliures.",
+        "83 → 100 (+17) → 130 (+30)."
+      ],
+      "workedSolution": "Hi ha 83 cadires ocupades; 130 − 83 = 47 cadires lliures."
+    },
+    {
+      "id": "L4-01",
+      "level": 4,
+      "title": "Els llapis de colors",
+      "statement": "La mestra compra 6 capses de llapis de colors. Cada capsa en conté 8.",
+      "question": "Quants llapis compra en total?",
+      "answer": {
+        "value": 48,
+        "unit": "llapis"
+      },
+      "steps": [
+        {
+          "expression": "6 * 8",
+          "result": 48
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "grups iguals"
+      ],
+      "visualModel": "array",
+      "hints": [
+        "Pots fer 6 files de 8 punts.",
+        "Descompon el 8 en 5 + 3.",
+        "6 × 5 = 30 i 6 × 3 = 18."
+      ],
+      "workedSolution": "Amb 6 grups de 8 llapis, 30 + 18 = 48 llapis."
+    },
+    {
+      "id": "L4-02",
+      "level": 4,
+      "title": "La pastisseria",
+      "statement": "En una pastisseria fan 72 magdalenes i les reparteixen per igual en 9 safates.",
+      "question": "Quantes magdalenes hi ha a cada safata?",
+      "answer": {
+        "value": 8,
+        "unit": "magdalenes"
+      },
+      "steps": [
+        {
+          "expression": "72 / 9",
+          "result": 8
+        }
+      ],
+      "strategies": [
+        "repartiment equitatiu",
+        "multiplicació inversa"
+      ],
+      "visualModel": "groups",
+      "hints": [
+        "Les 9 safates han de tenir el mateix nombre.",
+        "Quin nombre multiplicat per 9 dona 72?",
+        "9 × 8 = 72."
+      ],
+      "workedSolution": "Si 9 × 8 = 72, cada safata conté 8 magdalenes."
+    },
+    {
+      "id": "L4-03",
+      "level": 4,
+      "title": "La sala d’actes",
+      "statement": "A la sala d’actes hi ha 5 files de 9 cadires cadascuna.",
+      "question": "Quantes cadires hi ha en total?",
+      "answer": {
+        "value": 45,
+        "unit": "cadires"
+      },
+      "steps": [
+        {
+          "expression": "5 * 9",
+          "result": 45
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "grups iguals"
+      ],
+      "visualModel": "array",
+      "hints": [
+        "Representa 5 files de 9 cadires.",
+        "Pots separar el 9 en 5 i 4.",
+        "5 × 5 = 25; 5 × 4 = 20."
+      ],
+      "workedSolution": "25 + 20 = 45 cadires."
+    },
+    {
+      "id": "L4-04",
+      "level": 4,
+      "title": "Les cartes",
+      "statement": "Es reparteixen 56 cartes entre 7 infants, de manera que tothom en rebi les mateixes.",
+      "question": "Quantes cartes rep cada infant?",
+      "answer": {
+        "value": 8,
+        "unit": "cartes"
+      },
+      "steps": [
+        {
+          "expression": "56 / 7",
+          "result": 8
+        }
+      ],
+      "strategies": [
+        "repartiment equitatiu",
+        "multiplicació inversa"
+      ],
+      "visualModel": "groups",
+      "hints": [
+        "Hi ha 7 grups iguals.",
+        "Quina taula de multiplicar pot ajudar-te?",
+        "7 × 8 = 56."
+      ],
+      "workedSolution": "Cada infant rep 8 cartes."
+    },
+    {
+      "id": "L4-05",
+      "level": 4,
+      "title": "Les cistelles",
+      "statement": "Hi ha 4 cistelles amb 12 mandarines cadascuna.",
+      "question": "Quantes mandarines hi ha en total?",
+      "answer": {
+        "value": 48,
+        "unit": "mandarines"
+      },
+      "steps": [
+        {
+          "expression": "4 * 12",
+          "result": 48
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "descomposició"
+      ],
+      "visualModel": "array",
+      "hints": [
+        "Hi ha quatre grups de 12.",
+        "Descompon 12 en 10 i 2.",
+        "4 × 10 = 40; 4 × 2 = 8."
+      ],
+      "workedSolution": "40 + 8 = 48 mandarines."
+    },
+    {
+      "id": "L4-06",
+      "level": 4,
+      "title": "Els blocs de construcció",
+      "statement": "Hi ha 63 blocs de construcció per fer 9 torres iguals.",
+      "question": "Quants blocs tindrà cada torre?",
+      "answer": {
+        "value": 7,
+        "unit": "blocs"
+      },
+      "steps": [
+        {
+          "expression": "63 / 9",
+          "result": 7
+        }
+      ],
+      "strategies": [
+        "repartiment equitatiu",
+        "multiplicació inversa"
+      ],
+      "visualModel": "groups",
+      "hints": [
+        "Les torres han de ser iguals.",
+        "Pensa en la taula del 9.",
+        "9 × 7 = 63."
+      ],
+      "workedSolution": "63 blocs entre 9 torres són 7 blocs per torre."
+    },
+    {
+      "id": "L5-01",
+      "level": 5,
+      "title": "La col·lecció de cromos",
+      "statement": "En Marc té 90 cromos i la seva germana en té la meitat. Ella en regala 17 a una amiga.",
+      "question": "Quants cromos li queden a la germana?",
+      "answer": {
+        "value": 28,
+        "unit": "cromos"
+      },
+      "steps": [
+        {
+          "expression": "90 / 2",
+          "result": 45
+        },
+        {
+          "expression": "45 - 17",
+          "result": 28
+        }
+      ],
+      "strategies": [
+        "meitats",
+        "línia numèrica"
+      ],
+      "visualModel": "mixed",
+      "hints": [
+        "Primer calcula els cromos de la germana.",
+        "La meitat de 90 és 45.",
+        "45 − 17 = 28."
+      ],
+      "workedSolution": "La germana tenia 45 cromos i després de regalar-ne 17 li queden 28."
+    },
+    {
+      "id": "L5-02",
+      "level": 5,
+      "title": "El torneig de futbol",
+      "statement": "En un torneig hi participen 6 equips de 7 jugadors. El dia del torneig, 9 jugadors no poden assistir.",
+      "question": "Quants jugadors hi participaran finalment?",
+      "answer": {
+        "value": 33,
+        "unit": "jugadors"
+      },
+      "steps": [
+        {
+          "expression": "6 * 7",
+          "result": 42
+        },
+        {
+          "expression": "42 - 9",
+          "result": 33
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "compensació"
+      ],
+      "visualModel": "mixed",
+      "hints": [
+        "Primer calcula quants jugadors hi ha inscrits.",
+        "6 × 7 = 42. Ara resta els que no poden venir.",
+        "42 − 10 + 1 = 33."
+      ],
+      "workedSolution": "En total hi ha 42 jugadors; sense els 9 absents, en participen 33."
+    },
+    {
+      "id": "L5-03",
+      "level": 5,
+      "title": "Els retoladors",
+      "statement": "L’escola compra 5 capses amb 8 retoladors cadascuna. Durant la setmana n’utilitzen 13.",
+      "question": "Quants retoladors queden sense utilitzar?",
+      "answer": {
+        "value": 27,
+        "unit": "retoladors"
+      },
+      "steps": [
+        {
+          "expression": "5 * 8",
+          "result": 40
+        },
+        {
+          "expression": "40 - 13",
+          "result": 27
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "descomposició"
+      ],
+      "visualModel": "mixed",
+      "hints": [
+        "Calcula primer els retoladors de totes les capses.",
+        "5 × 8 = 40.",
+        "40 − 13 = 27."
+      ],
+      "workedSolution": "Comencen amb 40 retoladors. Després d’utilitzar-ne 13, en queden 27."
+    },
+    {
+      "id": "L5-04",
+      "level": 5,
+      "title": "Les bosses de mandarines",
+      "statement": "Una fruiteria reparteix 48 mandarines en 6 bosses iguals. Després ven 3 bosses completes.",
+      "question": "Quantes mandarines queden a la fruiteria?",
+      "answer": {
+        "value": 24,
+        "unit": "mandarines"
+      },
+      "steps": [
+        {
+          "expression": "48 / 6",
+          "result": 8
+        },
+        {
+          "expression": "8 * 3",
+          "result": 24
+        },
+        {
+          "expression": "48 - 24",
+          "result": 24
+        }
+      ],
+      "strategies": [
+        "repartiment equitatiu",
+        "grups iguals"
+      ],
+      "visualModel": "mixed",
+      "hints": [
+        "Primer calcula les mandarines de cada bossa.",
+        "48 ÷ 6 = 8. Se’n venen 3 bosses de 8.",
+        "3 × 8 = 24 venudes; 48 − 24 = 24."
+      ],
+      "workedSolution": "Cada bossa té 8 mandarines. Se’n venen 24, i en queden 24."
+    },
+    {
+      "id": "L5-05",
+      "level": 5,
+      "title": "El torneig escolar",
+      "statement": "S’han inscrit 4 equips de 9 jugadors a un torneig escolar. Després s’hi afegeixen 7 jugadors de reserva.",
+      "question": "Quants jugadors hi ha inscrits en total?",
+      "answer": {
+        "value": 43,
+        "unit": "jugadors"
+      },
+      "steps": [
+        {
+          "expression": "4 * 9",
+          "result": 36
+        },
+        {
+          "expression": "36 + 7",
+          "result": 43
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "línia numèrica"
+      ],
+      "visualModel": "mixed",
+      "hints": [
+        "Primer calcula els jugadors dels equips.",
+        "4 × 9 = 36.",
+        "36 + 7 = 43."
+      ],
+      "workedSolution": "Hi ha 36 jugadors dels equips i 7 reserves: 43 en total."
+    },
+    {
+      "id": "L5-06",
+      "level": 5,
+      "title": "Les galetes de la festa",
+      "statement": "Hi ha 3 safates amb 12 galetes cadascuna. Se’n trenquen 8 i les que queden es reparteixen entre 4 infants a parts iguals.",
+      "question": "Quantes galetes rep cada infant?",
+      "answer": {
+        "value": 7,
+        "unit": "galetes"
+      },
+      "steps": [
+        {
+          "expression": "3 * 12",
+          "result": 36
+        },
+        {
+          "expression": "36 - 8",
+          "result": 28
+        },
+        {
+          "expression": "28 / 4",
+          "result": 7
+        }
+      ],
+      "strategies": [
+        "model rectangular",
+        "repartiment equitatiu"
+      ],
+      "visualModel": "mixed",
+      "hints": [
+        "Primer calcula totes les galetes.",
+        "3 × 12 = 36. Després elimina les trencades.",
+        "36 − 8 = 28; 28 ÷ 4 = 7."
+      ],
+      "workedSolution": "Hi ha 36 galetes; en queden 28 de senceres, i cada infant en rep 7."
+    }
+  ]
+}

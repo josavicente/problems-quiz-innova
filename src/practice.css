@@ -1,0 +1,10 @@
+.statement mark { background: #fae8a5; color: inherit; border-radius: .2em; padding: .05em .12em; }
+.question-highlight { border-left: 4px solid #b46542; padding-left: .8rem; }
+.review-list { margin: 1.5rem auto; max-width: 32rem; text-align: left; background: #f3f7ef; border-radius: 1rem; padding: 1rem 1.25rem; }
+.review-list h2 { font-size: 1.1rem; margin-bottom: .5rem; }
+.review-list ul { margin: 0; padding-left: 1.4rem; }
+.review-list .link-button { text-align: left; min-height: 44px; }
+.home-changelog { display: inline-block; text-align: left; max-width: 32rem; vertical-align: top; margin-right: .75rem; }
+.home-changelog summary { color: #315f52; cursor: pointer; min-height: 44px; padding: 10px; text-decoration: underline; text-underline-offset: 3px; }
+.home-changelog summary:focus-visible { outline: 3px solid #c66b45; outline-offset: 3px; }
+.home-changelog p { padding: .5rem .75rem; font-size: .9rem; color: #425f52; }

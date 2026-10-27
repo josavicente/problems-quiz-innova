@@ -1,0 +1,79 @@
+.visual-lab { border: 1px solid #ddd4c6; border-radius: 1.25rem; background: #faf6ed; padding: clamp(1rem, 3vw, 1.5rem); color: #283c39; }
+.visual-lab h3, .visual-lab h4 { margin: 0 0 .45rem; }
+.visual-lab p { margin: .4rem 0 .9rem; }
+.visual-lab-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; align-items: start; }
+.tool-guide { margin-top: 1rem; border: 1px solid #c9d8c8; border-radius: .8rem; background: #f3f7ef; }
+.tool-guide summary { min-height: 44px; display: flex; align-items: center; gap: .5rem; padding: .7rem .9rem; cursor: pointer; font-weight: 700; color: #315f52; }
+.tool-guide summary::before { content: '+'; font-size: 1.3rem; line-height: 1; }
+.tool-guide[open] summary::before { content: '−'; }
+.tool-guide-content { padding: .1rem 1rem .8rem; }
+.tool-guide-content h4 { margin-top: .6rem; }
+.tool-guide-content ol { padding-left: 1.35rem; margin: .5rem 0 1rem; }
+.tool-guide-content li { padding-left: .2rem; margin-bottom: .5rem; line-height: 1.5; }
+.visual-tool { margin-top: 1rem; }
+.visual-lab label { display: grid; gap: .3rem; font-size: .9rem; font-weight: 650; }
+.visual-lab input, .visual-lab select { width: 100%; min-height: 44px; padding: .45rem .65rem; border: 1px solid #9baca3; border-radius: .55rem; background: white; color: #283c39; font: inherit; }
+.visual-lab button { min-height: 44px; padding: .55rem .8rem; border: 1px solid #a4b1aa; border-radius: .55rem; background: white; color: #283c39; font: inherit; cursor: pointer; }
+.visual-lab button:disabled { opacity: .5; cursor: not-allowed; }
+.visual-lab :focus-visible { outline: 3px solid #a14b32; outline-offset: 3px; }
+.visual-controls, .visual-actions { display: flex; flex-wrap: wrap; gap: .7rem; align-items: end; }
+.visual-controls > label { flex: 1 1 115px; }
+.number-line { display: block; width: 100%; max-width: 650px; height: auto; margin: .6rem auto 0; overflow: visible; }
+.jump-list { padding-left: 1.5rem; }
+.jump-list li { margin-bottom: .6rem; }
+.jump-list li label { display: inline-grid; width: 8rem; margin-right: .5rem; }
+.bar-parts, .group-list { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0; }
+.bar-parts > div, .group-list > div { flex: 1 1 4rem; min-width: 4rem; border: 1px solid #9baca3; border-radius: .55rem; padding: .75rem .4rem; text-align: center; background: #e2eee6; }
+.bar-parts span, .group-list span { display: block; font-size: .8rem; }
+.bar-parts strong, .group-list strong { display: block; font-size: 1.2rem; }
+.array-grid { display: grid; gap: .25rem; max-width: 360px; margin: 1rem 0; }
+.array-cell { display: block; aspect-ratio: 1; border-radius: .25rem; background: #679b85; }
+.array-cell-alt { background: #cf8b6e; }
+.visual-lab .paper-prompt { background: #f1e9d6; border-left: 3px solid #b66b44; border-radius: .4rem; padding: .8rem 1rem; line-height: 1.5; }
+.array-diagram { display: flex; align-items: center; flex-wrap: wrap; gap: .75rem; margin: 1rem 0; font-size: .85rem; }
+.array-rectangle { height: 85px; width: min(200px, 60%); border: 2px solid #679b85; border-radius: .5rem; background: #e2eee6; position: relative; }
+.array-rectangle i { position: absolute; top: 0; bottom: 0; border-left: 2px dashed #a14b32; }
+
+/* Keep the exercise and its thinking tools comfortably readable on iPad. */
+@media (min-width: 801px) and (max-width: 980px) {
+  .practice-grid { grid-template-columns: minmax(0, 1fr); }
+  .practice-grid aside { grid-row: 2; min-width: 0; }
+}
+
+/* iPadOS Safari zooms fields smaller than 16px when they receive focus. */
+.visual-lab input, .visual-lab select { font-size: 16px; }
+.visual-controls > label, .visual-lab-heading > label { min-width: 0; }
+.visual-lab .input-error { color: #943c2a; font-size: 1rem; line-height: 1.4; }
+
+/* The small navigation controls are frequently used with a finger. */
+.language button, .card-bottom button, .back-link, .link-button { min-height: 44px; }
+.problem-list button { width: 44px; height: 44px; }
+@media (pointer: coarse) {
+  .visual-lab button, .visual-lab input, .visual-lab select, .tool-guide summary,
+  .subtle-button, .button { touch-action: manipulation; }
+}
+
+/* Text colours preserve the warm palette while remaining legible on pale surfaces. */
+body .brand small,
+body .language button,
+body .hero-copy > p,
+body .hero-note,
+body .section-heading p,
+body .card-kicker,
+body .card-bottom,
+body .problem-count,
+body .answer-row span,
+body .hint-card p,
+body .summary-card > p,
+body .summary-number span,
+body footer { color: #4a6356; }
+body .eyebrow,
+body .story-label { color: #944829; }
+body .level-number { color: #607c6c; }
+body .hero-note span,
+body .hint-icon { color: #98602c; }
+body .back-link,
+body .link-button { color: #315f52; }
+body .feedback.correct { color: #28643e; }
+body .feedback.incorrect,
+body .feedback.invalid { color: #963d28; }
